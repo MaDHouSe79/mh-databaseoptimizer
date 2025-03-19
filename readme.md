@@ -59,14 +59,6 @@
 - This cleansup the player metadata vehiclekeys, cause it can be that you have keys that no longer exsist.
 - Useless data that never will be used again, so removed it and keep it clean.
 
-### Edit code in qb-vehiclekeys
-```lua
-server_scripts {
-    '@oxmysql/lib/MySQL.lua', -- you need to add this in qb-vehiclekeys/fxmanifest.lua
-    'server/main.lua',
-}
-```
-
 ### LICENSE
 [GPL LICENSE](./LICENSE)<br />
 &copy; [MaDHouSe79](https://www.youtube.com/@MaDHouSe79)
