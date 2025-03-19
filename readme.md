@@ -38,7 +38,7 @@
 
 ### Why i made this?
 - well i see scripts that don't think of this and keep adding useless data into the database or in metadata and never remove it.
-- like the inventory there are inventoeries that are no longer exsist or even used,
+- like the inventory there are inventories that are no longer exsist or even used,
 - same for vehicles that you use on the server, it can be a player owned vehicle but nolonger exist on the server
 - this are a few examples that it is useless data and why you want to keep it in your database?
 - That's why i created this script cause i don't like useless data in my database,
