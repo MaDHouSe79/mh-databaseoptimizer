@@ -5,20 +5,20 @@
 </p>
 
 <p align="center">
-    <a href="https://github.com/MaDHouSe79/mh-deliveryjobs/issues">
-        <img src="https://img.shields.io/github/issues/MaDHouSe79/mh-deliveryjobs"/> 
+    <a href="https://github.com/MaDHouSe79/mh-databaseoptimizer/issues">
+        <img src="https://img.shields.io/github/issues/MaDHouSe79/mh-databaseoptimizer"/> 
     </a>
-    <a href="https://github.com/MaDHouSe79/mh-deliveryjobs/watchers">
-        <img src="https://img.shields.io/github/watchers/MaDHouSe79/mh-deliveryjobs"/> 
+    <a href="https://github.com/MaDHouSe79/mh-databaseoptimizer/watchers">
+        <img src="https://img.shields.io/github/watchers/MaDHouSe79/mh-databaseoptimizer"/> 
     </a> 
-    <a href="https://github.com/MaDHouSe79/mh-deliveryjobs/network/members">
-        <img src="https://img.shields.io/github/forks/MaDHouSe79/mh-deliveryjobs"/> 
+    <a href="https://github.com/MaDHouSe79/mh-databaseoptimizer/network/members">
+        <img src="https://img.shields.io/github/forks/MaDHouSe79/mh-databaseoptimizer"/> 
     </a>  
-    <a href="https://github.com/MaDHouSe79/mh-deliveryjobs/stargazers">
-        <img src="https://img.shields.io/github/stars/MaDHouSe79/mh-deliveryjobs?color=white"/> 
+    <a href="https://github.com/MaDHouSe79/mh-databaseoptimizer/stargazers">
+        <img src="https://img.shields.io/github/stars/MaDHouSe79/mh-databaseoptimizer?color=white"/> 
     </a>
-    <a href="https://github.com/MaDHouSe79/mh-deliveryjobs/blob/main/LICENSE">
-        <img src="https://img.shields.io/github/license/MaDHouSe79/mh-deliveryjobs?color=black"/> 
+    <a href="https://github.com/MaDHouSe79/mh-databaseoptimizer/blob/main/LICENSE">
+        <img src="https://img.shields.io/github/license/MaDHouSe79/mh-databaseoptimizer?color=black"/> 
     </a>      
 </p>
 
@@ -26,6 +26,9 @@
 1. [oxmysql](https://github.com/overextended/oxmysql/releases)
 2. [qb-core](https://github.com/qbcore-framework/qb-core)
 2. [qb-vehiclekeys](https://github.com/qbcore-framework/qb-vehiclekeys) (to check if you are using PersistentKeys)
+
+### Screenshot
+![alttext](https://github.com/MaDHouSe79/mh-databaseoptimizer/blob/main/screenshots/console.png?raw=true)
 
 ### MH Database Optimizer (QB) (Server Side Only)
 - Well the name says it all, it cleans up your database with useless data,
