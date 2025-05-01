@@ -28,7 +28,7 @@
 2. [qb-vehiclekeys](https://github.com/qbcore-framework/qb-vehiclekeys) (to check if you are using PersistentKeys)
 
 ### Screenshot
-![alttext](https://github.com/MaDHouSe79/mh-databaseoptimizer/blob/main/screenshots/console.png?raw=true)
+![alttext](https://github.com/MaDHouSe79/mh-databaseoptimizer/blob/main/screenshots/screenshot.png?raw=true)
 
 ### MH Database Optimizer (QB) (Server Side Only)
 - Well the name says it all, it cleans up your database with useless data,
