@@ -45,6 +45,7 @@
 - this also optimize your database like requests and search to the database.
 
 ### When server start this happend
+
 **Inventory Stashes/Trunks/Dumpsters optimize**
 - This are inventories that are empty or has no items in it, like trunks from vehicles that does not exist anymore,
 - it also remove any inventory that is empty cause when you use it it will be created again by the inventory if it still exsist
@@ -52,6 +53,9 @@
 
 **Player vehicles optimize**
 - This only happen when vehicles does not exsist on the server, than player owned vehicles will be removed from the database.
+
+**Delete Non Active Players**
+- This only happen when players has not join the server in 60 days, you can change this in the config file..
 
 **Metadata vehicleKeys optimize**
 - This cleansup the player metadata vehiclekeys, cause it can be that you have keys that no longer exsist.
