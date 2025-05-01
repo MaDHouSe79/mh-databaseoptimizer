@@ -55,9 +55,9 @@
 
 **Metadata vehicleKeys optimize**
 - This cleansup the player metadata vehiclekeys, cause it can be that you have keys that no longer exsist.
-- A vehicle that is suddenly yours but that is not car but you get a key because this meta stuff in qb-vehiclekeys that is not the best idea to do.
-- it can happen that you have a key from a vehicle plate that it not yours but you have a key, this kan also be a player vehicle.
-- So I recommend to turn this off because it doesn't really make sense to use.
+- A vehicle that is suddenly yours but that vehicle is not yours but you get a key because this meta stuff in qb-vehiclekeys that is not the best idea to do.
+- it can happen that you have a key from a vehicle plate that is not yours but you have a key, this can also be the case by a player vehicle.
+- So I recommend to turn this off in qb-vehiclekeys because it doesn't really make any sense to use.
 
 ### LICENSE
 [GPL LICENSE](./LICENSE)<br />
