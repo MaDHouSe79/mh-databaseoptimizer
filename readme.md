@@ -47,7 +47,7 @@
 ### When server start this happend
 **Inventory Stashes/Trunks/Dumpsters optimize**
 - This are inventories that are empty or has no items in it, like trunks from vehicles that does not exist anymore,
-- it also remove any inventory that is empty cause when you use it it will be created again be the inventory if it still exsist
+- it also remove any inventory that is empty cause when you use it it will be created again by the inventory if it still exsist
 - and when you put items in it it will stay remain and it does not delete the inventory cause it is used and has items.
 - Useless data that never will be used again, so removed it and keep it clean.
 
