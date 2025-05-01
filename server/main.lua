@@ -6,6 +6,26 @@ local colors, messages = { green = "^2", red = "^1" }, {}
 local unusedInventories, unusedVehicles, givingKeys, deletingKeys, countPlayers = 0, 0, 0, 0, 0
 local persistentKeys, script = Config.PersistentKeys, GetCurrentResourceName()
 
+local function CheckIfPlayerIsActive()
+    local count = 0
+    local players = MySQL.query.await('SELECT * FROM players')
+    for k, player in pairs(players) do
+        local result = MySQL.scalar.await("SELECT DATEDIFF(NOW(), `last_updated`) FROM `players` WHERE id = ?",{player.id})
+        if result >= Config.NonActiveDays then
+            count = count + 1
+            local query = "DELETE FROM %s WHERE citizenid = ?"
+            local tableCount = #Config.PlayerTables
+            local queries = table.create(tableCount, 0)
+            for i = 1, tableCount do
+                local v = Config.PlayerTables[i]
+                queries[i] = {query = query:format(v.table), values = { player.citizenid }}
+            end
+            MySQL.transaction(queries, function(result2) end)
+        end
+    end
+    print("Total "..count.." non active accounts has been founded and deleted..")
+end
+
 -- Player Metadata Optimizer
 local function OptimizeMetadata()
     local players = MySQL.query.await('SELECT * FROM players')
@@ -33,6 +53,7 @@ local function OptimizeMetadata()
     local playersTxt = "player"
     if countPlayers > 1 or countPlayers <= 0 then playersTxt = "players" end
     messages[#messages + 1] = color1..deletingKeys.."^0 old keys and give "..color2..givingKeys.."^0 new keys to "..color2..countPlayers.."^0 "..playersTxt
+    CheckIfPlayerIsActive()
 end
 
 -- Player Vehicles Optimizer
