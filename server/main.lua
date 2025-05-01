@@ -23,7 +23,7 @@ local function CheckIfPlayerIsActive()
             MySQL.transaction(queries, function(result2) end)
         end
     end
-    print("Total "..count.." non active accounts has been founded and deleted..")
+    messages[#messages + 1] = color.. count .. "^0 non active accounts has been founded and deleted."
 end
 
 -- Player Metadata Optimizer
